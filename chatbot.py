@@ -1,4 +1,4 @@
-mport requests
+import requests
 already_asked_questions = []
 
 def classify(text):
@@ -51,7 +51,8 @@ def answer_question():
     elif answerclass == "habitats":
         print("Th habitat of a dolphin depends on its species, but they are found in all oceans of the world and even in a few rivers. The bottlenose dolphin is found in every ocean in the world except the Arctic and Antarctic oceans. Most river dolphins live in the rivers of South American.")
     elif answerclass == "goodbye":
-        print ("goodbye, have a nice day!") 
+        print ("goodbye, have a nice day!")
+        quit() 
 print ("What would you like to know about dolphins?") 
 
 
