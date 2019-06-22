@@ -23,6 +23,7 @@ def check_if_already_asked( question ):
 
 def answer_question():
     question = input("< ")
+    question = question.lower().strip() 
     existing_question = check_if_already_asked( question )
     if ( existing_question):
         print("You already asked this question.")
